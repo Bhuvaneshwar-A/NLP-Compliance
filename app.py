@@ -7,7 +7,7 @@ import pickle
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-
+nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download("wordnet")
 nltk.download("omw-1.4")
